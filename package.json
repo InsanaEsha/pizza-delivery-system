@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "server":"node server.js"
+    "server": "node server.js",
+    "watch": "npx mix watch"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,10 @@
     "express-ejs-layouts": "^2.5.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "laravel-mix": "^6.0.43",
+    "nodemon": "^2.0.15",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.1.0"
   }
 }
